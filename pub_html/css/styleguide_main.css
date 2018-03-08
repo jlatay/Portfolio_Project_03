@@ -1,0 +1,40 @@
+.styleguide-section {
+  width: 90%;
+  margin: 4rem auto;
+}
+
+
+.element-block {
+  min-width: 60%;
+  margin: 1rem 2rem 1rem 1rem;
+}
+
+.gridContainer {
+  background-color: #5a5a5a;
+}
+
+.gridBlock {
+  background-color: #313333;
+  padding: 1rem;
+  text-align: center;
+  margin: 0.5rem 0.5rem;
+  color: #ffffff;
+}
+
+.code-block{
+  min-width: 20rem;
+  margin: 1rem auto;
+  padding: 1rem 1rem;
+  background-color: #5a5a5a;
+  color: #ffffff;
+}
+
+.border-bottom-2{
+  font-weight: 500;
+  color: #313333;
+  border-bottom: 1.25px solid #04E824;
+}
+
+.dark-text{
+  color: #313333;
+}

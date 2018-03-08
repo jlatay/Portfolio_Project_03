@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/normalize.css" type="text/css" />
     <link rel="stylesheet" href="css/flexbox.css" type="text/css" />
   <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="css/styleguide_main.css" type="text/css" />
   <link rel="stylesheet" href="css/header.css" type="text/css" />
   <link rel="stylesheet" href="css/footer.css" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,500i,800,800i" rel="stylesheet">
@@ -14,9 +15,103 @@
 
 <body>
   <header>
-
+    <nav class="container">
+      <div class="home-nav-block-2 block">
+        <a href="index.html">John Latay</a>
+      </div>
+      <div class="menu-nav-block-2 block">
+        <a href="#">Hamburger</a>
+      </div>
+    </nav>
   </header>
 
+  <div class="style-guide-section-container">
+    <section class="style-guide-page">
+      <div id="section-style-guide">
+        <div class="center-align">
+          <h2 class="style-guide-title">STYLE GUIDE</h2>
+          <div class="border-bottom"></div>
+        </div>
+      </div>
+    </section>
+
+<!-- Grid Structure  -->
+
+<section class="styleguide-section" id="grid-structure-section">
+  <h2 class="border-bottom-2">Grid Structure</h2>
+
+  <div class="container">
+    <div class="block element-block">
+      <div class="gridContainer">
+        <div class="container">
+          <div class="block gridBlock">
+            <h3>Block 1</h3>
+          </div>
+          <div class="block gridBlock">
+            <h3>Block 2</h3>
+          </div>
+        </div>
+        <div class="container">
+          <div class="block gridBlock">
+            <h3>Block 1</h3>
+          </div>
+          <div class="block gridBlock">
+            <h3>Block 2</h3>
+          </div>
+          <div class="block gridBlock">
+            <h3>Block 3</h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="block code-block">
+      <p>
+        <strong>CSS Selector:</strong></p>
+        <p class="id-cssSelector">.container, .block, .gridContainer, .gridBlock</p>
+      <code>  &lt;div class=&quot;gridContainer&quot;&gt;<br/>
+        &lt;div class=&quot;container&quot;&gt;<br/>
+          &lt;div class=&quot;block gridBlock&quot;&gt;<br/>
+            &lt;h3&gt;Block 1&lt;/h3&gt;<br/>
+          &lt;/div&gt;<br/>
+          &lt;div class=&quot;block gridBlock&quot;&gt;<br/>
+            &lt;h3&gt;Block 2&lt;/h3&gt;<br/>
+          &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+      &lt;/div&gt;</code>
+
+    </div>
+  </div>
+</section>
+
+<!--Grid Structure  -->
+
+<section class="styleguide-section" id="interactive-elements-section">
+  <h2 class="border-bottom-2">Interactive Elements</h2>
+
+  <h3>In-Text Links</h3>
+  <div class="container">
+    <div class="block element-block">
+        <p class="dark-text">
+          <h3 class="project-header-title">Stranger Danager Mobile Application (UX/UI Design)</h3>
+          <figcaption class="image-caption">
+            small description of project here!
+          </figcaption>
+          <nav class="hyperlink">
+            <a href="#">More Details Here &#8594;</a>
+          </nav>
+        </p>
+      </div>
+      <div class="block code-block">
+        <p><strong>CSS Selector:</strong>
+          <p class="class-cssSelector">.in-text-link</p>
+        <code>&lt;a class=&quot;.hyperlink&quot;&gt;More Details Here &#8594;&lt;/a&gt;</code>
+      </div>
+    </div>
+
+
+</div>
   <footer>
 
   </footer>

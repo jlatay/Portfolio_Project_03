@@ -46,12 +46,6 @@ p {
   width: 7rem;
 }
 
-.border-bottom-2{
-  margin:-0.5em auto 2em;
-  border-bottom: 2.5px solid #04E824;
-  width: 7rem;
-}
-
 /* HEADER */
 header{
   width: 100%;
@@ -366,7 +360,6 @@ color: #ffffff;
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 1px;
-
   color: #717777;
 }
 
@@ -384,4 +377,28 @@ color: #ffffff;
   color: #313333;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.style-guide-section-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.style-guide-page {
+  background: #ffffff;
+  position: relative;
+  /* height: 100vh; */
+}
+
+#section-style-guide {
+color: #04E824;
+}
+
+.style-guide-title {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 2.75rem;
+  padding-bottom: .5rem;
+  letter-spacing: .55rem;
+  border: none;
 }
