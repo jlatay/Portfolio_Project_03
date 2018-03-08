@@ -4,43 +4,84 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="css/flexbox.css" type="text/css" />
   <link rel="stylesheet" href="css/main.css" type="text/css" />
-  <link rel="stylesheet" href="css/flexbox.css" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,500i,800,800i" rel="stylesheet">
   <title>John Latay | Portfolio</title>
 </head>
 
 <body>
-  <header>
-
-  </header>
-
-
-    <section class="landing-page" class="container">
-        <div id="section-index" class="block">
-          <h1 class="index-main-title">Welcome,</h1>
-          <h2 class="index-name">I'm <strong>John Latay!</strong></h2>
-          <h3 class="index-sub-title">An aspiring Visual Designer</h3>
+  <!--Landing Cover Page-->
+  <section class="landing-page" class="container">
+    <header>
+      <nav class="container">
+        <div class="home-nav-block block">
+          <a href="index.html">John Latay</a>
         </div>
+        <div class="menu-nav-block block">
+          <a href="#">Hamburger</a>
+        </div>
+      </nav>
+    </header>
+    <div id="section-index" class="block">
+      <h1 class="index-main-title">Welcome,</h1>
+      <h2 class="index-name">I'm <strong>John Latay!</strong></h2>
+      <h3 class="index-sub-title">An aspiring Visual Designer</h3>
+    </div>
+  </section>
+
+  <!--Featured Projects Page-->
+  <div class="projects-section-container">
+    <section class="projects-page">
+      <div id="section-projects">
+        <div class="center-align">
+          <h2 class="section-projects-title">FEATURED PROJECTS</h2>
+          <div class="border-bottom"></div>
+        </div>
+      </div>
+
+      <div class="project-container container">
+        <div class="featured-project block">
+          <figure> <!--Add Interactive Feature For Image-->
+            <a href="strangerdanger.html">
+              <img src="img/strangerdanger.jpg" alt="Overview of Stranger Danger Mobile Application" class="project-image"/>
+            </a>
+            <h3 class="project-header-title">Stranger Danager Mobile Application (UX/UI Design)</h3>
+            <figcaption class="image-caption">
+              small description of project here!
+            </figcaption>
+            <nav class="hyperlink">
+              <a href="sentile.html">More Details Here &#8594;</a>
+            </nav>
+          </figure>
+        </div>
+
+        <div class="featured-project block">
+          <figure> <!--Add Interactive Feature For Image-->
+            <a href="sentile.html">
+              <img src="img/sentile.jpg" alt="Overview of Stranger Danger Mobile Application" class="project-image"/>
+            </a>
+            <h3 class="project-header-title">Sentile User-Centered Research (UX Design & Research)</h3>
+            <figcaption class=image-caption>
+              small description of project here!
+            </figcaption>
+            <nav class="hyperlink">
+              <a href="sentile.html">More Details Here &#8594;</a>
+            </nav>
+          </figure>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="block">
+          <nav class="nav-button">
+            <a href="#section-projects">Learn More About Me</a>
+          </nav>
+        </div>
+      </div>
+
     </section>
-
-    <section class="projects-page" class="container">
-        <div id="section-projects" class="block">
-          <div class="center-align">
-            <h2 class="section-projects-title">MY FEATURED PROJECTS</h2>
-            <div class="border-bottom"></div>
-          </div>
-        </div>
-
-        <div class="projects-container">
-          <div class="project-content">
-
-          </div>
-          <div class="project-content">
-
-          </div>
-        </div>
-    </section>
+  </div>
 
 
 

@@ -17,15 +17,48 @@ div {
   display: block;
 }
 
-div.center-align {
+center-align {
   text-align: center;
   margin: auto;
 }
 
+figure {
+  margin: 0 0 2em 0;
+  width: 100%;
+  text-align: center;
+}
+
+img {
+  height: auto;
+}
 .border-bottom {
   margin:-0.5em auto 2em;
   border-bottom: 2.5px solid #616666;
   width: 7rem;
+}
+
+/* HEADER */
+header{
+  width: 100%;
+}
+
+.home-nav-block{
+  align-self: flex-start;
+}
+
+.home-nav-block a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu-nav-block{
+  text-align: right;
+  color: #ffffff;
+}
+
+.menu-nav-block a{
+  text-decoration: none;
+  color: #ffffff;
 }
 
 /*Start of Landing Page*/
@@ -84,14 +117,84 @@ div.center-align {
   height: 100vh;
 }
 
+.projects-section-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 #section-projects {
 color: #04E824;
 }
 
 .section-projects-title {
   text-align: center;
-  padding-top: 3.5rem;
+  font-size: 1.5rem;
+  padding-top: 2.75rem;
   padding-bottom: .5rem;
   letter-spacing: .55rem;
 }
+
+.featured-project {
+  width: 45%;
+  margin: 1rem 1.5rem;
+}
+
+.featured-project a img {
+  width: 100%;
+  height: auto;
+}
+.project-image{
+  width: 100%;
+}
+
+.project-header-title {
+  font-size: 15px;
+  font-weight: 500i;
+  letter-spacing: 1.25px;
+  color: #515555;
+  text-align: left;
+}
+
+.image-caption {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #717777;
+  text-align: left;
+}
+
+.hyperlink {
+  text-align: left;
+  padding-top: .15rem;
+  text-decoration: none;
+}
+
+.hyperlink a {
+  padding-top: .15rem;
+  text-decoration: none;
+  color: #04E824;
+}
+
+.nav-button a{
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #04E824;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #04E824;
+  padding: 0.5rem 1rem;
+  margin: 0 auto;
+  text-decoration: none;
+  transition: background-color 0.5s ease-out;
+  text-align: center;
+}
+
+.nav-button a:hover, .nav-button a:focus {
+  color: white;
+  background-color: #04E824;
+  text-align: center;
+}
+
+
+
 /*End of Projects Us Page  */
