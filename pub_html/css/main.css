@@ -76,6 +76,25 @@ header{
   color: #ffffff;
 }
 
+.home-nav-block-2{
+  align-self: flex-start;
+}
+
+.home-nav-block-2 a{
+  text-decoration: none;
+  color: #04E824;
+}
+
+.menu-nav-block-2{
+  text-align: right;
+  color: #04E824;
+}
+
+.menu-nav-block-2 a{
+  text-decoration: none;
+  color: #04E824
+}
+
 /*Start of Landing Page*/
 
 .landing-page {
@@ -259,6 +278,7 @@ color: #ffffff;
   font-size: 17px;
   letter-spacing: 2px;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 .coloured-headers {
@@ -296,10 +316,10 @@ color: #ffffff;
 }
 
 .stranger-danger-title{
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 500;
   color: #313333;
-  letter-spacing: 1.25px;
+  letter-spacing: 1px;
 }
 
 .sentile-container {
@@ -313,21 +333,55 @@ color: #ffffff;
 }
 
 .sentile-title {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 500;
   color: #313333;
-  letter-spacing: 1.25px;
+  letter-spacing: 1px;
 }
 
 
 .back-to-projects-hyperlink {
   text-align: left;
   text-decoration: none;
-  margin-top: 7rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
 }
 
 .back-to-projects-hyperlink a{
   padding-top: .15rem;
+  padding-bottom: .15rem;
   text-decoration: none;
   color: #04E824;
+}
+
+.projects-paragraph {
+  color: #717777;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+}
+
+.description-headers {
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+
+  color: #717777;
+}
+
+.project-subheaders {
+  font-size: 20px;
+  font-weight: 500i;
+  color: #313333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.project-paragraph-captions {
+  font-size: 17px;
+  font-weight: 500;
+  color: #313333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
