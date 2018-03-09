@@ -117,7 +117,6 @@ header{
   font-size: 65px; /*font-size: 5vh; use if using flex, align, justify, and text-align*/
   font-weight: 500;
   letter-spacing: .75rem;
-  margin: 0;
   text-transform: uppercase;
 }
 
@@ -138,6 +137,14 @@ header{
   font-style: italic;
   letter-spacing: .35rem;
   padding-right: 5rem;
+  text-transform: uppercase;
+}
+
+.index-sub-title-2 {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: .35rem;
   text-transform: uppercase;
 }
 /*End of Landing Page  */
@@ -169,6 +176,7 @@ color: #04E824;
 .section-projects-title-2 {
   font-size: 1.5rem;
   letter-spacing: .55rem;
+  text-transform: uppercase;
 }
 
 .featured-project {
@@ -185,6 +193,14 @@ color: #04E824;
 }
 
 .project-header-title {
+  font-size: 15px;
+  font-weight: 500i;
+  letter-spacing: 1.25px;
+  color: #515555;
+  text-align: left;
+}
+
+.project-header-title-2 {
   font-size: 15px;
   font-weight: 500i;
   letter-spacing: 1.25px;
