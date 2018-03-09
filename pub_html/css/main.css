@@ -240,12 +240,14 @@ color: #04E824;
   text-decoration: none;
   transition: background-color 0.5s ease-out;
   text-align: center;
+  border-radius: 10px;
 }
 
 .nav-button a:hover, .nav-button a:focus {
   color: white;
   background-color: #04E824;
   text-align: center;
+  border-radius: 10px;
 }
 /*End of Projects Page*/
 
@@ -321,11 +323,13 @@ color: #ffffff;
   border-color: #04E824;
   padding: .75rem 1.25rem;
   margin-top: 1rem;
+  border-radius: 10px;
 }
 
 .button-download:hover, .button-download:focus {
   color: #ffffff;
   background-color: #04E824;
+  border-radius: 10px;
 }
 
 .button-download-2 {
@@ -339,11 +343,13 @@ color: #ffffff;
   border-color: #04E824;
   padding: .75rem 1.25rem;
   margin-top: 1rem;
+  border-radius: 10px;
 }
 
 .button-download-2:hover, .button-download-2:focus {
   color: #ffffff;
   background-color: #04E824;
+  border-radius: 10px;
 }
 /*End of About Me Page*/
 
@@ -381,7 +387,6 @@ color: #ffffff;
   color: #313333;
   letter-spacing: 1px;
 }
-
 
 .back-to-projects-hyperlink {
   text-align: left;
