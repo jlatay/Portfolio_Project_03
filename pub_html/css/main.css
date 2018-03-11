@@ -13,6 +13,10 @@ h1 {
   margin: 0rem;
 }
 
+h3 {
+  margin-top: 0rem
+}
+
 div {
   display: block;
 }
@@ -30,6 +34,7 @@ figure {
 
 img {
   height: auto;
+  margin-bottom: 1rem;
 }
 
 p {
@@ -494,6 +499,17 @@ color: #04E824;
   margin-left: 3rem;
 }
 
+.project-content-images-block img {
+  width: 100%;
+}
+
+.project-content-images-block-2 img {
+  max-width: 20%;
+  max-height: 40%;
+  margin-right: 1rem;
+}
+
+
 
 @media (max-width:1094px) {
   .about-me-container{
@@ -517,6 +533,18 @@ color: #04E824;
   .project-content-block {
     max-width: 70%;
     margin-left: 3rem;
+  }
+}
+
+@media (max-width:705px) {
+  .project-content-images-block img {
+    width: 100%;
+  }
+
+  .project-content-images-block-2 img {
+    max-width: 30%;
+    max-height: 50%;
+    margin-right: 1rem;
   }
 }
 
