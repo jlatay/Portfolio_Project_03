@@ -261,7 +261,7 @@ color: #04E824;
 .about-me-section-container {
   width: 100%;
   margin: 0 auto;
-  background: #313333
+  background: #313333;
 }
 
 .about-me-page {
@@ -375,6 +375,7 @@ color: #ffffff;
   font-weight: 500;
   color: #313333;
   letter-spacing: 1px;
+  margin-left: 3rem;
 }
 
 .sentile-container {
@@ -411,7 +412,7 @@ color: #ffffff;
 .projects-paragraph {
   color: #717777;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 1px;
   line-height: 1.5rem;
 }
@@ -463,6 +464,28 @@ color: #04E824;
   border: none;
 }
 
+.first-look-block {
+  max-width: 60%;
+  min-width: 17rem;
+  margin-left: 3rem;
+}
+
+.first-look-block img {
+  width: 100%;
+}
+
+.project-summary-block {
+  max-width: 25%;
+  min-width: 15rem;
+  margin-left: 3rem;
+}
+
+.project-content-block {
+  max-width: 60%;
+  margin-left: 3rem;
+}
+
+
 @media (max-width:1094px) {
   .about-me-container{
     display: block;
@@ -482,6 +505,10 @@ color: #04E824;
     margin: 0 auto;
   }
 
+  .project-content-block {
+    max-width: 70%;
+    margin-left: 3rem;
+  }
 }
 
 @media (max-width:625px) {
