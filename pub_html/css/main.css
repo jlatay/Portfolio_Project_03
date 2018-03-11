@@ -46,6 +46,12 @@ p {
   width: 7rem;
 }
 
+.border-bottom-3 {
+  margin:-0.5em auto 2em;
+  border-bottom: 2.5px solid #04E824;
+  width: 7rem;
+}
+
 /* HEADER */
 header{
   width: 100%;
@@ -174,7 +180,7 @@ color: #04E824;
 }
 
 .section-projects-title-2 {
-  font-size: 1.5rem;
+  font-size: 30px;
   letter-spacing: .55rem;
   text-transform: uppercase;
 }
@@ -510,6 +516,7 @@ color: #04E824;
     padding-right: 5rem;
     text-transform: uppercase; */
   }
+}
 
   @media (max-width:430px) {
     .index-main-title {
@@ -542,5 +549,3 @@ color: #04E824;
     }
 
   }
-
-}
