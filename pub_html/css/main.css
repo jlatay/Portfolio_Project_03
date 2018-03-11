@@ -227,6 +227,15 @@ color: #04E824;
   text-align: left;
 }
 
+.image-caption-2 {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #04E824;
+  text-align: left;
+  font-style: oblique;
+}
+
 .hyperlink {
   text-align: left;
   padding-top: .15rem;
@@ -444,6 +453,7 @@ color: #ffffff;
   color: #313333;
   text-transform: uppercase;
   letter-spacing: 1px;
+  margin-top: 1rem;
 }
 
 .project-paragraph-captions {
