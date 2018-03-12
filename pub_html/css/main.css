@@ -638,9 +638,9 @@ color: #04E824;
 
   }
 
-  @media (max-width:405px) {
+  @media (max-width:425px) {
     .button-view-resume a{
-      font-size: 10px;
+      font-size: 9px;
     }
 
     .about-me-headers {
@@ -649,5 +649,11 @@ color: #04E824;
 
     .about-me-text-block {
       margin-right: 2rem;
+    }
+  }
+
+  @media (max-width:380px) {
+    .button-view-resume a{
+      font-size: 8px;
     }
   }
