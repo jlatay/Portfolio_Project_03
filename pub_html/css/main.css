@@ -388,17 +388,18 @@ color: #ffffff;
   margin: 0 auto;
 }
 
-.stranger-danger-page {
+.project-content-page {
   background: #ffffff;
   position: relative;
 }
 
-.stranger-danger-title{
+.single-project-title {
   font-size: 30px;
   font-weight: 500;
   color: #313333;
   letter-spacing: 1px;
   margin-left: 3rem;
+  text-transform: uppercase;
 }
 
 .sentile-container {
