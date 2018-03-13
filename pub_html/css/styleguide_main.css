@@ -1,3 +1,4 @@
+
 .styleguide-section {
   width: 90%;
   margin: 4rem auto;
@@ -45,6 +46,32 @@
 
 .projects-paragraph-block {
   max-width: 60%;
+}
+
+/* colour swatches */
+.colourBlock {
+  min-width: 10%;
+  padding: 1rem;
+}
+.green{
+  background-color: #04E824;
+  color: white;
+  padding: 1rem;
+}
+
+.grey{
+  background-color: #313333;
+  color: white;
+  padding: 1rem;
+}
+
+.white{
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+#colour-palette-section{
+  margin-bottom: 5rem;
 }
 
 @media (max-width: 660px) {
