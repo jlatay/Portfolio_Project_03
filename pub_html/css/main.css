@@ -293,33 +293,48 @@ color: #ffffff;
 }
 
 .about-me {
-  width: 45%;
-  min-height: 20rem;
+  max-width: 40%;
+  /* min-height: 20rem; */
   margin: 1rem 1.5rem;
   position: relative;
 }
 
 .about-me-text-block{
-  width: 45%;
-  min-height: auto;
-  margin: 1rem 1.5rem;
+  max-width: 30%;
+  /* min-height: auto; */
+  margin: auto auto;
 }
-
+/*width and height better as % scales at same rate?*/
 .image-border-box {
-  box-sizing: border-box;
-  position: absolute;
-  width: 75%;
+  /* box-sizing: border-box;
+  position: relative;
+  width: 50%;
   right: .5rem;
-  height: 20rem;
+  height: 70%;*/
   border: 4px solid #04E824;
   align-self: flex-end;
+  position: relative;
+  width: 70%;
+  height: 85%;
+  left: 40%;
 }
 
-/* #image-of-me {
-  position: absolute;
-  width: 90%;
-  height: 3rem;
-} */
+/*define size of image container*/
+#image-of-me {
+  /* width: 50%;
+  position: relative;
+  right: 3.5rem;
+  top: 2.5rem; */
+  position: relative;
+  right: 10%;
+  top: 10%;
+}
+
+/*define width of image*/
+#image-of-me img {
+ /* width: 100%; */
+ width:100%;
+}
 
 .about-me-headers {
   font-weight: 500;
@@ -527,13 +542,8 @@ color: #04E824;
     display: block;
   }
 
-  .about-me{
-    margin-left:auto;
-    margin-right:auto;
-  }
-
   .about-me-text-block{
-    width: 95%;
+    max-width: 85%;
   }
 
   .contact-info-block {
@@ -545,6 +555,41 @@ color: #04E824;
     max-width: 70%;
     margin-left: 3rem;
   }
+
+  .about-me {
+    max-width: 75%;
+    /* min-height: 2rem; */
+    margin-left:auto;
+    margin-right:auto;
+    margin: 2rem 1.5rem;
+    position: relative;
+  }
+
+  /*width and height better as % scales at same rate?*/
+  .image-border-box {
+    /* box-sizing: border-box;
+    position: relative;
+    width: 50%;
+    right: .5rem;
+    height: 70%;*/
+    border: 4px solid #04E824;
+    width: 75%;
+    height: 25%;
+    left: 20%;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
+
+  /*define size of image container*/
+  #image-of-me {
+    /* width: 50%;
+    position: relative;
+    right: 3.5rem;
+    top: 2.5rem; */
+    right: 10%;
+    top: 1.5rem;
+  }
+
 }
 
 @media (max-width:705px) {
