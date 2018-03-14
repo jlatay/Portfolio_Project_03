@@ -302,7 +302,7 @@ color: #ffffff;
 .about-me-text-block{
   max-width: 40%;
   /* min-height: auto; */
-  margin: auto auto;
+  margin: 0 auto;
 }
 /*width and height better as % scales at same rate?*/
 .image-border-box {
@@ -315,7 +315,7 @@ color: #ffffff;
   align-self: flex-end;
   position: relative;
   width: 70%;
-  height: 70%;
+  height: 90%;
   left: 40%;
 }
 
