@@ -300,7 +300,7 @@ color: #ffffff;
 }
 
 .about-me-text-block{
-  max-width: 30%;
+  max-width: 40%;
   /* min-height: auto; */
   margin: auto auto;
 }
@@ -315,7 +315,7 @@ color: #ffffff;
   align-self: flex-end;
   position: relative;
   width: 70%;
-  height: 85%;
+  height: 70%;
   left: 40%;
 }
 
@@ -641,6 +641,20 @@ color: #04E824;
     letter-spacing: .35rem;
     padding-right: 5rem;
     text-transform: uppercase; */
+  }
+}
+
+@media (max-width:540px) {
+  .button-view-resume a{
+    font-size: 10px;
+  }
+
+  .about-me-headers {
+    margin: 1.25rem auto;
+  }
+
+  .about-me-text-block {
+    margin-right: 2.15rem;
   }
 }
 
