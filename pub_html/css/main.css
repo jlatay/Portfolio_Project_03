@@ -248,6 +248,11 @@ color: #04E824;
   color: #04E824;
 }
 
+.hyperlink a:hover, .hyperlink a:focus{
+  color: #313333;
+  font-weight: 800;
+}
+
 .nav-button a{
   font-size: 15px;
   letter-spacing: 1px;
