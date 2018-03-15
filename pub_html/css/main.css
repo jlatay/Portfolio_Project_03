@@ -285,7 +285,7 @@ color: #04E824;
 .about-me-container {
   width: 90%;
   margin: 0 auto;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 
 #section-about-me {
@@ -315,7 +315,7 @@ color: #ffffff;
   align-self: flex-end;
   position: relative;
   width: 70%;
-  height: 90%;
+  height: 70%;
   left: 40%;
 }
 
