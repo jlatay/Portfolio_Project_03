@@ -290,7 +290,7 @@ color: #04E824;
 .about-me-container {
   width: 90%;
   margin: 0 auto;
-  /* padding-bottom: 2rem; */
+  padding-bottom: 2rem;
 }
 
 #section-about-me {
@@ -446,11 +446,16 @@ color: #ffffff;
   margin-bottom: 3rem;
 }
 
-.back-to-projects-hyperlink a{
+.back-to-projects-hyperlink a {
   padding-top: .15rem;
   padding-bottom: .15rem;
   text-decoration: none;
   color: #04E824;
+}
+
+.back-to-projects-hyperlink a:hover, .back-to-projects-hyperlink a:focus {
+  font-weight: 800;
+  color: #313333;
 }
 
 .projects-paragraph {
