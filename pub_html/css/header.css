@@ -22,9 +22,9 @@ a {
   width: auto;
 }
 
-/* .logo {
-  height: 4.5rem;
-} */
+.logo {
+  width: auto;
+}
 
 #navigation-header {
   height: 60px;
