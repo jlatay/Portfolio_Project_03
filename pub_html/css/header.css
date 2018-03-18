@@ -5,6 +5,7 @@ header {
   position: sticky; */
   /* position:fixed;
   z-index: 1000; */
+  padding: .25rem;
 }
 
 a {
@@ -21,10 +22,12 @@ a {
   width: auto;
 }
 
+/* .logo {
+  height: 4.5rem;
+} */
+
 #navigation-header {
   height: 60px;
-  padding-top: .25rem;
-  padding-bottom: .25rem;
 }
 
 #navigation-header img {
@@ -34,11 +37,6 @@ a {
   vertical-align: middle;
 }
 
-.logo {
-
-  /* margin: auto 0; */
-}
-
 .main-header-name {
   display:inline-block;
   color: #ffffff;
@@ -46,8 +44,10 @@ a {
   text-transform: uppercase;
   letter-spacing: .25rem;
   padding-left: .75rem;
-  /* margin: auto 0; */
+  margin: auto 0;
+  vertical-align: middle;
 }
+
 
 
 
