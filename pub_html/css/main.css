@@ -429,11 +429,12 @@ color: #ffffff;
 }
 
 .projects-paragraph {
-  color: #717777;
+  color: #414444;
   font-weight: 300;
   font-size: 14px;
   letter-spacing: 1px;
   line-height: 1.5rem;
+  padding-bottom: 2rem;
 }
 
 .description-headers {
@@ -450,6 +451,7 @@ color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .project-paragraph-captions {

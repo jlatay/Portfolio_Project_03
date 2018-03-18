@@ -37,6 +37,7 @@ a {
   vertical-align: middle;
 }
 
+/*Header for name*/
 .main-header-name {
   display:inline-block;
   color: #ffffff;
@@ -48,79 +49,35 @@ a {
   vertical-align: middle;
 }
 
-
-
-
-/* header {
-  width: 100%;
-}
-
-.section-header {
-  background: #313333;
-  padding-top: .75rem;;
-  position:fixed;
-  z-index:10;
-}
-
-.home-nav-block{
-  align-self: flex-start;
-}
-
-.home-nav-block a{
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.logo {
-  width: 4rem;
-  height: auto;
-  vertical-align: middle;
-}
-
-.logo img {
-  width: 100%;
-  height: auto;
-  justify-content: center;
-  margin: none;
-  padding-left: 5rem;
-  vertical-align: middle;
-}
-
-.menu-nav-block{
-  text-align: right;
-  color: #ffffff;
-}
-
-.menu-nav-block a{
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.menu-nav-block a:active{
-  text-decoration: none;
-  color: #ffffff;
-}
-
-
-.header-text {
-  padding-left: 1.5rem;
-  padding-right: 2rem;
-  letter-spacing: .25rem;
-  text-transform: uppercase;
-  font-size: 12px;
-}
-
-.header-text-2 {
-  padding-left: 1.5rem;
-  padding-right: 2rem;
-  letter-spacing: .25rem;
-  text-transform: uppercase;
-  font-size: 12px;
-}
-
-.main-header-name {
-  font-size: 15px;
-  letter-spacing: .15rem;
-  text-transform: uppercase;
+/*Header for projects*/
+.main-header-projects {
   display:inline-block;
-} */
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+  padding-left: .75rem;
+  margin: auto 0;
+  vertical-align: middle;
+  text-align: left;
+  position: relative;
+
+}
+
+
+/*Header for about me*/
+.main-header-about-me {
+  display:inline-block;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+  padding-left: .75rem;
+  margin: auto 0;
+  vertical-align: middle;
+  text-align: left;
+  position: relative;
+
+}
