@@ -169,8 +169,15 @@ color: #04E824;
   width: 100%;
   height: auto;
 }
-.project-image{
+
+
+.project-image img{
   width: 100%;
+  background-color: #ffffff;
+}
+
+.project-image img:hover, .project-image img:focus {
+  opacity: .8;
 }
 
 .project-header-title {
