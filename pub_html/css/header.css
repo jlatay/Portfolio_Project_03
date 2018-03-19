@@ -12,6 +12,14 @@ a {
   text-decoration: none;
 }
 
+.header-style {
+  position: fixed;
+  top: 0;
+  z-index: 100000;
+  overflow: hidden;
+  width: 100%;
+}
+
 .header-box {
   /* overflow: hidden;
   position: sticky;
