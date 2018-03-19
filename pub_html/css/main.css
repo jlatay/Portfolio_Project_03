@@ -64,6 +64,7 @@ p {
   /* background: linear-gradient(to top left, #F4F8EA 0%, #04E824 100%); */
   position: relative;
   height: 120vh;
+  /* putting linear gradient on top of image, also image file has to be referenced by going out of folder before going into img folder */
   background: linear-gradient(to top left,
     rgba(244,248,234,0.2),
     rgba(4,232,36,0.7)),

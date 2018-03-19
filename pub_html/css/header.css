@@ -57,35 +57,28 @@ a {
   vertical-align: middle;
 }
 
-/*Header for projects*/
-.main-header-projects {
-  display:inline-block;
-  color: #ffffff;
-  font-size: 12px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: .25rem;
-  padding-left: .75rem;
-  margin: auto 0;
-  vertical-align: middle;
-  text-align: left;
-  position: relative;
-
+/* right nav block */
+.navigation-right{
+  /* align-self is the vertical alignment */
+  display: block;
+  align-self: center;
+  text-align: right;
+  justify-content: flex-end;
+  margin: 0 auto;
 }
 
-
-/*Header for about me*/
-.main-header-about-me {
+/*Header for projects and about me*/
+.main-header-projects, .main-header-about-me {
   display:inline-block;
   color: #ffffff;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: .25rem;
-  padding-left: .75rem;
+  padding-right: 50px;
   margin: auto 0;
   vertical-align: middle;
   text-align: left;
-  position: relative;
+  /* position: relative; */
 
 }
