@@ -114,18 +114,22 @@ a {
   color: #04E824;
 }
 
-@media (max-width:665px) {
+@media(max-width:700px) {
   .main-header-projects {
     text-align: center;
     padding-right: 2rem;
     padding-left: 2rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
     display: block
   }
+
   .main-header-about-me {
     text-align: center;
     padding-right: 2rem;
     padding-left: 2rem;
-    display: block
+    display: block;
+    margin-bottom: 1rem;
   }
 }
 
