@@ -22,18 +22,18 @@
       <div class="block logo">
         <div id="navigation-header">
           <a href="index.html">
-            <img src="img/logo.png" alt="John Latay's Logo"/>
+            <img src="img/logo.png" alt="John Latay's Logo" class="logo-position"/>
           </a>
-            <a href="index.html">
-              <h2 class="main-header-name">John Latay</h2>
+            <a href="index.html" class="active-header">
+                <h2 class="main-header-name">John Latay</h2>
             </a>
         </div>
       </div>
       <div class="block navigation-right">
-        <a href="index.html #section-projects">
+        <a href="index.html #section-projects" class="active-header">
           <h2 class="main-header-projects">Projects</h2>
         </a>
-        <a href="index.html #section-about-me">
+        <a href="index.html #section-about-me" class="active-header">
           <h2 class="main-header-about-me">About Me</h2>
         </a>
       </div>
@@ -209,6 +209,41 @@
     <!--Navigation Elements-->
     <section class="styleguide-section" id="main-naviation-section">
       <h2 class="border-bottom-2">Main Navigation</h2>
+      <h3>Header Navigation</h3>
+      <div class="container">
+      <div class="element-block">
+        <div class="header-style-2 container">
+        <header class="header-box">
+          <nav class="main-navigation container">
+            <div class="block logo">
+              <div id="navigation-header">
+                <a href="#">
+                  <img src="img/logo.png" alt="John Latay's Logo" class="logo-position"/>
+                </a>
+                  <a href="#" class="active-header">
+                      <h2 class="main-header-name">John Latay</h2>
+                  </a>
+              </div>
+            </div>
+            <div class="block navigation-right">
+              <a href="#" class="active-header">
+                <h2 class="main-header-projects">Projects</h2>
+              </a>
+              <a href="#" class="active-header">
+                <h2 class="main-header-about-me">About Me</h2>
+              </a>
+            </div>
+          </nav>
+        </header>
+        </div>
+      </div>
+      <div class="block code-block">
+        <p><strong>CSS Selector:</strong></p>
+        <p class="id-cssSelector"> .green, .grey, .white</p>
+        <code>&lt;div class=&quot;container&quot;&gt;<br />
+          &lt;div class=&quot;block colourBlock green&quot;&gt;<br />Green: #04E824&lt;/div&gt;&lt;/div&gt;</code>
+      </div>
+      </div>
     </section>
 
     <!--Rendered Content Might Not Need-->

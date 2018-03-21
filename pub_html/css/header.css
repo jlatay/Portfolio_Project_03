@@ -20,6 +20,13 @@ a {
   width: 100%;
 }
 
+.header-style-2 {
+  top: 0;
+  z-index: 100000;
+  overflow: hidden;
+  width: 100%;
+}
+
 .header-box {
   /* overflow: hidden;
   position: sticky;
