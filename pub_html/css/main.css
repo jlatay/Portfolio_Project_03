@@ -445,6 +445,26 @@ color: #ffffff;
   color: #313333;
 }
 
+.back-to-projects-hyperlink-2 {
+  text-align: left;
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  padding-top: 1rem;
+}
+
+.back-to-projects-hyperlink-2 a {
+  padding-top: .15rem;
+  padding-bottom: .15rem;
+  text-decoration: none;
+  color: #04E824;
+}
+
+.back-to-projects-hyperlink-2 a:hover, .back-to-projects-hyperlink-2 a:focus {
+  font-weight: 800;
+  color: #313333;
+}
+
 .projects-paragraph {
   color: #414444;
   font-weight: 300;
@@ -641,7 +661,11 @@ color: #04E824;
     padding-right: 5rem;
     text-transform: uppercase; */
   }
+  .back-to-projects-hyperlink  {
+    padding-top: 4rem;
+  }
 }
+
 
 @media (max-width:540px) {
   .button-view-resume a{
@@ -655,6 +679,18 @@ color: #04E824;
   .about-me-text-block {
     margin-right: 2.15rem;
   }
+
+  .back-to-projects-hyperlink  {
+    padding-top: 8rem;
+  }
+}
+
+}
+
+@media (max-width: 505px) {
+  .back-to-projects-hyperlink  {
+    padding-top: 8rem;
+  }
 }
 
 @media (max-width:480px) {
@@ -662,6 +698,12 @@ color: #04E824;
     font-size:8px;
     letter-spacing: 1px;
     }
+}
+
+@media (max-width: 470px) {
+  .back-to-projects-hyperlink  {
+    padding-top: 8rem;
+  }
 }
 
   @media (max-width:430px) {
