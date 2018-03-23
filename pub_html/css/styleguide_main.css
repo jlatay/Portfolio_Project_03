@@ -107,6 +107,12 @@
   }
 }
 
+@media (max-width:575px) {
+  .style-guide-title {
+    padding-top: 8rem;
+  }
+}
+
 @media (max-width: 515px) {
   .index-main-title-2 {
     font-size: 30px;
@@ -129,20 +135,15 @@
     padding-right: 5rem;
     text-transform: uppercase; */
   }
+
 }
 
 @media (max-width:500px) {
   .style-guide-title {
-    padding-top: 6rem;
-
-  }
-}
-
-@media (max-width:470px) {
-  .style-guide-title {
     padding-top: 10rem;
   }
 }
+
 
 @media (max-width: 415px) {
   .index-main-title-2 {
