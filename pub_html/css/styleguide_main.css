@@ -1,3 +1,12 @@
+.style-guide-title {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 4.75rem;
+  padding-bottom: .5rem;
+  letter-spacing: .55rem;
+  border: none;
+}
+
 
 .styleguide-section {
   width: 90%;
@@ -119,6 +128,19 @@
     letter-spacing: .35rem;
     padding-right: 5rem;
     text-transform: uppercase; */
+  }
+}
+
+@media (max-width:500px) {
+  .style-guide-title {
+    padding-top: 6rem;
+
+  }
+}
+
+@media (max-width:470px) {
+  .style-guide-title {
+    padding-top: 10rem;
   }
 }
 
