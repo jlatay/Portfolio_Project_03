@@ -68,7 +68,7 @@ p {
   background: linear-gradient(to top left,
     /* rgba(244,248,234,0.7),
     rgba(4,232,36,1)), */
-    rgba(4,232,36,0.3),
+    rgba(4,232,36,0.5),
     rgba(49,51,51,1)),
     url('../img/wireflows_333_latest.gif');
   background-clip: border-box;
