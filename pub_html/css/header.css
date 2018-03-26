@@ -52,6 +52,17 @@ a {
   vertical-align: middle;
 }
 
+#navigation-header-2 {
+  height: 60px;
+}
+
+#navigation-header-2 img {
+  height: 100%;
+  padding-left: 5rem;
+  margin: auto 0;
+  vertical-align: middle;
+}
+
 /*Header for name*/
 .main-header-name {
   display:inline-block;

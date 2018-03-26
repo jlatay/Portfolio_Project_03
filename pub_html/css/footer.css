@@ -1,4 +1,5 @@
-.section-footer:before{
+
+.section-footer:before {
   content: ".";
    display: block;
    clear: both;
@@ -6,7 +7,7 @@
    height: 0;
 }
 
-.section-footer{
+.section-footer {
   margin-bottom: 0rem;
   padding-bottom: 1.5rem;
   padding-top: 1rem;
