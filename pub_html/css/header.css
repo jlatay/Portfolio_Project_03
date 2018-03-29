@@ -41,22 +41,11 @@ a {
   width: auto;
 }
 
-#navigation-header {
+.navigation-header {
   height: 60px;
 }
 
-#navigation-header img {
-  height: 100%;
-  padding-left: 5rem;
-  margin: auto 0;
-  vertical-align: middle;
-}
-
-#navigation-header-2 {
-  height: 60px;
-}
-
-#navigation-header-2 img {
+.navigation-header img {
   height: 100%;
   padding-left: 5rem;
   margin: auto 0;
@@ -202,7 +191,7 @@ a {
     margin-bottom: 1rem;
   }
 
-  #navigation-header {
+  .navigation-header {
     height: 40px;
   }
 
@@ -221,7 +210,7 @@ a {
 }
 
 @media (max-width:380px) {
-  #navigation-header {
+  .navigation-header {
     height: 35px;
   }
 

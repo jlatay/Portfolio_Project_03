@@ -83,7 +83,36 @@
   margin-bottom: 5rem;
 }
 
+@media (max-width: 1450px) {
+  #header-style-projects, #header-style-about-me{
+    display: block;
+    margin: 0.5rem;
+  }
+  #navigation-header-2{
+    display: inline-block;
+  }
+
+  #navigation-header-2 img{
+    padding-left: 20px;
+  }
+}
+
+@media (max-width:1150px) {
+  .projects-paragraph-block {
+    max-width: 90%;
+  }
+}
+
 @media (max-width: 660px) {
+  #logo-2{
+    justify-content: space-around;
+  }
+  #navigation-header-2{
+    margin: 0.5rem auto;
+  }
+  #navigation-header-2 img{
+    padding-left: auto;
+  }
   .index-main-title-2 {
     font-size: 45px;
     /* font-weight: 500;
@@ -145,7 +174,18 @@
 }
 
 
-@media (max-width: 415px) {
+@media (max-width: 450px) {
+  #navigation-header-2{
+      margin: 10px auto 0 auto;
+    }
+
+  #header-style-name{
+    margin: 0 auto;
+  }
+
+  #navigation-style-name, #navigation-style-name{
+    padding-bottom: 0.5rem;
+  }
   .index-main-title-2 {
     font-size: 20px;
     /* font-weight: 500;
@@ -166,11 +206,5 @@
     letter-spacing: .35rem;
     padding-right: 5rem;
     text-transform: uppercase; */
-  }
-}
-
-@media (max-width:1150px) {
-  .projects-paragraph-block {
-    max-width: 90%;
   }
 }
