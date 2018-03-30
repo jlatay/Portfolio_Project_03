@@ -77,7 +77,7 @@ p {
 
 #section-index {
   color: #ffffff;
-  padding-left: 5rem;
+  padding-left: 6rem;
 }
 
 .index-main-title {
@@ -548,8 +548,8 @@ color: #04E824;
 }
 
 
-
 @media (max-width:1094px) {
+
   .about-me-container{
     display: block;
   }
@@ -680,7 +680,7 @@ color: #04E824;
   }
 }
 
-@media (max-height: 500px) {
+@media (max-height: 600px) {
   .index-main-title{
     padding-top: 8rem;
   }
@@ -737,5 +737,49 @@ color: #04E824;
     .stranger-danger-container {
     width: 95%;
     margin: 0 auto;
+    }
+
+    .index-main-title, .index-name, .index-sub-title {
+      padding-right: 0;
+      text-align: center;
+    }
+
+    #section-index {
+      padding: 0;
+    }
+  }
+
+  @media (max-width:360px) {
+
+  }
+
+  @media (max-width:320px) {
+    #section-index {
+      padding-top: 6rem;
+    }
+  }
+
+
+  @media (min-height: 320px) {
+    .index-main-title {
+      font-size: 1.75rem;
+    }
+    .index-name {
+      font-size: 1.75rem;
+    }
+    .index-sub-title {
+      font-size: 1.25rem;
+    }
+  }
+
+  @media (min-height: 400px) {
+    .index-main-title {
+      font-size: 2.5rem;
+    }
+    .index-name {
+      font-size: 2.5rem;
+    }
+    .index-sub-title {
+      font-size: 1.75rem;
     }
   }
