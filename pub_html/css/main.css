@@ -63,7 +63,7 @@ p {
   /*For opacity either call opacity: .75 or use rgb(value, value, value, alpha) convert hex into rgb coolors.co*/
   /* background: linear-gradient(to top left, #F4F8EA 0%, #04E824 100%); */
   position: relative;
-  height: 120vh;
+  height: 100vh;
   /* putting linear gradient on top of image, also image file has to be referenced by going out of folder before going into img folder */
   background: linear-gradient(to top left,
     /* rgba(244,248,234,0.7),
@@ -183,10 +183,12 @@ color: #04E824;
 .project-image img{
   width: 100%;
   background-color: #ffffff;
+  transition: .3s ease-out;
 }
 
 .project-image img:hover, .project-image img:focus {
   opacity: .8;
+  transition: .3s ease-in;
 }
 
 .project-header-title {
@@ -232,10 +234,12 @@ color: #04E824;
   padding-top: .15rem;
   text-decoration: none;
   color: #04E824;
+  transition: .3s ease-out;
 }
 
 .hyperlink a:hover, .hyperlink a:focus{
   color: #313333;
+  transition: .3s ease-in;
   font-weight: 800;
 }
 
@@ -249,9 +253,10 @@ color: #04E824;
   padding: 0.5rem 1rem;
   margin: 0 auto;
   text-decoration: none;
-  transition: background-color 0.5s ease-out;
+  transition: 0.3s ease-in;
   text-align: center;
   border-radius: 10px;
+  box-shadow: 2px 3px #515555;
 }
 
 .nav-button a:hover, .nav-button a:focus {
@@ -259,6 +264,8 @@ color: #04E824;
   background-color: #04E824;
   text-align: center;
   border-radius: 10px;
+  transition: .3s ease-out;
+  box-shadow: none;
 }
 /*End of Projects Page*/
 
@@ -297,11 +304,6 @@ color: #ffffff;
 }
 /*width and height better as % scales at same rate?*/
 .image-border-box {
-  /* box-sizing: border-box;
-  position: relative;
-  width: 50%;
-  right: .5rem;
-  height: 70%;*/
   border: 4px solid #04E824;
   align-self: flex-end;
   position: relative;
@@ -312,10 +314,6 @@ color: #ffffff;
 
 /*define size of image container*/
 #image-of-me {
-  /* width: 50%;
-  position: relative;
-  right: 3.5rem;
-  top: 2.5rem; */
   position: relative;
   right: 10%;
   top: 10%;
@@ -323,7 +321,6 @@ color: #ffffff;
 
 /*define width of image*/
 #image-of-me img {
- /* width: 100%; */
  width:100%;
 }
 
@@ -354,7 +351,7 @@ color: #ffffff;
   border-color: #04E824;
   padding: 0.5rem 1rem;
   text-decoration: none;
-  transition: background-color 0.5s ease-out;
+  transition: 0.5s ease-out;
   text-align: center;
   border-radius: 10px;
 }
@@ -364,6 +361,7 @@ color: #ffffff;
   background-color: #04E824;
   text-align: center;
   border-radius: 10px;
+  transition: .3s ease-in;
 }
 
 .button-download-2 {
@@ -375,9 +373,10 @@ color: #ffffff;
   border-color: #04E824;
   padding: 0.5rem 1rem;
   text-decoration: none;
-  transition: background-color 0.5s ease-out;
+  transition: 0.5s ease-out;
   text-align: center;
   border-radius: 10px;
+  box-shadow: 2px 3px #515555;
 }
 
 .button-download-2:hover, .button-download-2:focus {
@@ -385,6 +384,8 @@ color: #ffffff;
   background-color: #04E824;
   text-align: center;
   border-radius: 10px;
+  transition: 0.3s ease-in;
+  box-shadow: none;
 }
 /*End of About Me Page*/
 
@@ -437,12 +438,13 @@ color: #ffffff;
   padding-top: .15rem;
   padding-bottom: .15rem;
   text-decoration: none;
-  color: #04E824;
+  color: #313333;
 }
 
 .back-to-projects-hyperlink a:hover, .back-to-projects-hyperlink a:focus {
   font-weight: 800;
-  color: #313333;
+  color: #04E824;
+  transition: .3s ease-in;
 }
 
 .back-to-projects-hyperlink-2 {
@@ -678,6 +680,11 @@ color: #04E824;
   }
 }
 
+@media (max-height: 500px) {
+  .index-main-title{
+    padding-top: 8rem;
+  }
+}
 
 @media (max-width:480px) {
   .about-me-headers{
@@ -726,10 +733,9 @@ color: #04E824;
     .button-view-resume a{
       font-size: 8px;
     }
-  }
 
-@media (max-height: 830px) {
-  .index-main-title{
-    padding-top: 8rem;
+    .stranger-danger-container {
+    width: 95%;
+    margin: 0 auto;
+    }
   }
-}

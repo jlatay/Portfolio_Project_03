@@ -118,6 +118,7 @@ a {
 }
 
 .active-header h2:hover, .active-header h2:focus {
+  transition: .3s;
   color: #04E824;
 }
 
@@ -152,12 +153,6 @@ a {
 
 @media (max-width:505px) {
 
-  .main-header-name {
-    text-align:center;
-    font-size: 15px;
-    margin: 2rem auto;
-  }
-
   .main-header-projects {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -175,16 +170,6 @@ a {
 }
 
 @media (max-width:450px) {
-  .main-header-name {
-    text-align:center;
-    font-size: 13px;
-    margin: 2rem auto;
-  }
-
-  .main-header-projects {
-    margin-top: 1.75rem;
-    margin-bottom: 1rem;
-  }
 
   .main-header-projects-2 {
     margin-top: 1.75rem;
@@ -198,6 +183,11 @@ a {
 }
 
 @media (max-width:400px) {
+  .main-header-name {
+    text-align:center;
+    font-size: 1.25rem;
+    margin: 1rem auto;
+
   .main-header-projects {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
@@ -210,6 +200,14 @@ a {
 }
 
 @media (max-width:380px) {
+  .navigation-header img {
+    height: 100%;
+    padding-left: 4rem;
+    margin: auto 0;
+    vertical-align: middle;
+  }
+
+
   .navigation-header {
     height: 35px;
   }

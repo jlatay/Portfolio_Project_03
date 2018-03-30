@@ -37,6 +37,7 @@
 
 .nav-footer a:hover, .nav-footer a:focus {
   color: #04E824;
+  transition: .3s ease-out;
 }
 
 .nav-footer span {
