@@ -58,7 +58,6 @@ p {
 }
 
 /*Start of Landing Page*/
-
 .landing-page {
   /*For opacity either call opacity: .75 or use rgb(value, value, value, alpha) convert hex into rgb coolors.co*/
   /* background: linear-gradient(to top left, #F4F8EA 0%, #04E824 100%); */
@@ -66,8 +65,6 @@ p {
   height: 100vh;
   /* putting linear gradient on top of image, also image file has to be referenced by going out of folder before going into img folder */
   background: linear-gradient(to top left,
-    /* rgba(244,248,234,0.7),
-    rgba(4,232,36,1)), */
     rgba(4,232,36,0.5),
     rgba(49,51,51,1)),
     url('../img/wireflows_333_latest.gif');
@@ -96,7 +93,6 @@ p {
   letter-spacing: .75rem;
   text-transform: uppercase;
 }
-
 
 .index-name {
   font-size: 60px;
@@ -178,7 +174,6 @@ color: #04E824;
   width: 100%;
   height: auto;
 }
-
 
 .project-image img{
   width: 100%;
@@ -292,14 +287,12 @@ color: #ffffff;
 
 .about-me {
   max-width: 40%;
-  /* min-height: 20rem; */
   margin: 1rem 1.5rem;
   position: relative;
 }
 
 .about-me-text-block{
   max-width: 40%;
-  /* min-height: auto; */
   margin: 0 auto;
 }
 /*width and height better as % scales at same rate?*/
@@ -547,7 +540,6 @@ color: #04E824;
   margin-right: 1rem;
 }
 
-
 @media (max-width:1094px) {
 
   .about-me-container{
@@ -571,7 +563,6 @@ color: #04E824;
 
   .about-me {
     max-width: 75%;
-    /* min-height: 2rem; */
     margin-left:auto;
     margin-right:auto;
     margin: 2rem 1.5rem;
@@ -584,11 +575,6 @@ color: #04E824;
 
   /*width and height better as % scales at same rate?*/
   .image-border-box {
-    /* box-sizing: border-box;
-    position: relative;
-    width: 50%;
-    right: .5rem;
-    height: 70%;*/
     border: 4px solid #04E824;
     width: 75%;
     height: 25%;
@@ -599,14 +585,9 @@ color: #04E824;
 
   /*define size of image container*/
   #image-of-me {
-    /* width: 50%;
-    position: relative;
-    right: 3.5rem;
-    top: 2.5rem; */
     right: 10%;
     top: 1.5rem;
   }
-
 }
 
 @media (max-width:705px) {
@@ -620,8 +601,6 @@ color: #04E824;
     margin-right: 1rem;
   }
 }
-
-
 
 @media (max-width:625px) {
   .index-main-title {
@@ -650,7 +629,6 @@ color: #04E824;
   }
 
   .about-me-headers {
-
     margin: 1.25rem auto;
     font-size:.75rem;
     letter-spacing: 1px;
@@ -670,8 +648,7 @@ color: #04E824;
 
   .section-projects-title-about-me {
     padding-top: 10rem;
-}
-
+  }
 }
 
 @media (max-width:505px) {
@@ -690,9 +667,8 @@ color: #04E824;
   .about-me-headers{
     font-size:.65rem;
     letter-spacing: 1px;
-    }
+  }
 }
-
 
 @media (max-width: 470px) {
   .back-to-projects-hyperlink  {
@@ -712,7 +688,6 @@ color: #04E824;
     .index-sub-title {
       font-size: 12px;
     }
-
   }
 
   @media (max-width:425px) {
@@ -737,14 +712,12 @@ color: #04E824;
     .stranger-danger-container {
     width: 95%;
     margin: 0 auto;
-    }
+  }
 
     .index-main-title, .index-name, .index-sub-title {
-      padding-right: 0;
-      text-align: center;
-    }
-
-
+    padding-right: 0;
+    text-align: center;
+  }
   }
 
   @media (max-width:360px) {

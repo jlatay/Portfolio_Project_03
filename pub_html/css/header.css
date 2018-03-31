@@ -1,10 +1,6 @@
 header {
   width: 100%;
   background: #313333;
-  /* overflow: hidden;
-  position: sticky; */
-  /* position:fixed;
-  z-index: 1000; */
   padding: .25rem;
 }
 
@@ -87,7 +83,6 @@ a {
   margin: auto 0;
   vertical-align: middle;
   text-align: left;
-  /* position: relative; */
 }
 
 .main-header-projects-2 {
@@ -101,7 +96,6 @@ a {
   margin: auto 0;
   vertical-align: middle;
   text-align: left;
-  /* position: relative; */
 }
 
 .main-header-about-me {
@@ -141,7 +135,6 @@ a {
     display: block
   }
 
-
   .main-header-about-me {
     text-align: center;
     padding-right: 2rem;
@@ -162,7 +155,6 @@ a {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-
 
   .main-header-about-me {
     margin-bottom: 1rem;
@@ -187,6 +179,7 @@ a {
     text-align:center;
     font-size: 1.25rem;
     margin: 1rem auto;
+  }
 
   .main-header-projects {
     margin-top: 1.5rem;
@@ -206,7 +199,6 @@ a {
     margin: auto 0;
     vertical-align: middle;
   }
-
 
   .navigation-header {
     height: 35px;
