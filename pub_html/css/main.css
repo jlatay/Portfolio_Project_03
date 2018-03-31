@@ -718,6 +718,10 @@ color: #04E824;
       padding-top: 4rem;
     }
 
+    .index-main-title {
+      padding-top: 10rem;
+    }
+
   }
 
   @media (max-width:380px) {
