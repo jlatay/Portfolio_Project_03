@@ -452,12 +452,13 @@ color: #ffffff;
   padding-top: .15rem;
   padding-bottom: .15rem;
   text-decoration: none;
-  color: #04E824;
+  color: #313333;
 }
 
 .back-to-projects-hyperlink-2 a:hover, .back-to-projects-hyperlink-2 a:focus {
   font-weight: 800;
-  color: #313333;
+  color: #04E824;
+  transition: .3s ease-in;
 }
 
 .projects-paragraph {
@@ -590,6 +591,7 @@ color: #04E824;
   }
 }
 
+
 @media (max-width:705px) {
   .project-content-images-block img {
     width: 100%;
@@ -605,20 +607,29 @@ color: #04E824;
 @media (max-width:625px) {
   .index-main-title {
     font-size: 45px; /*font-size: 5vh; use if using flex, align, justify, and text-align*/
-    text-align: center;
   }
 
   .index-name {
     font-size: 40px;
-    text-align: center;
   }
 
   .index-sub-title {
     font-size: 15px;
-    text-align: center;
   }
   .back-to-projects-hyperlink  {
     padding-top: 4rem;
+  }
+
+  .index-main-title, .index-name, .index-sub-title {
+  padding-right: 0;
+  margin-right: 0;
+  text-align: center;
+  }
+
+  #section-index {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
   }
 }
 
@@ -702,6 +713,11 @@ color: #04E824;
     .about-me-text-block {
       margin-right: 2rem;
     }
+
+    #section-index {
+      padding-top: 4rem;
+    }
+
   }
 
   @media (max-width:380px) {
@@ -712,23 +728,21 @@ color: #04E824;
     .stranger-danger-container {
     width: 95%;
     margin: 0 auto;
-  }
+    }
 
-    .index-main-title, .index-name, .index-sub-title {
-    padding-right: 0;
-    text-align: center;
-  }
-  }
+    .index-main-title {
+      padding-top: 8rem;
+    }
 
-  @media (max-width:360px) {
-    .index-name {
-      font-size: 18px;
+    #section-index {
+      padding-top: 8rem;
     }
   }
 
+
   @media (max-width:320px) {
     #section-index {
-      padding-top: 6rem;
+      padding-top: 4rem;
     }
   }
 
@@ -747,12 +761,31 @@ color: #04E824;
 
   @media (min-height: 400px) {
     .index-main-title {
-      font-size: 2.5rem;
+      font-size: 2.25rem;
     }
     .index-name {
-      font-size: 2.5rem;
+      font-size: 2.25rem;
     }
     .index-sub-title {
       font-size: 1.75rem;
+    }
+  }
+
+  /*For monitors 24 inches 1920 x 1080 display*/
+  @media (min-height:900px) {
+    .index-main-title {
+      font-size: 5rem; /*font-size: 5vh; use if using flex, align, justify, and text-align*/
+    }
+
+    .index-name {
+      font-size: 5rem;
+    }
+
+    .index-sub-title {
+      font-size: 2rem;
+    }
+
+    #section-index {
+      padding-top: 6rem;
     }
   }
