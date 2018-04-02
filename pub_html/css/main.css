@@ -383,7 +383,7 @@ color: #ffffff;
 /*End of About Me Page*/
 
 /*Start of Projects Styling*/
-.stranger-danger-container {
+.projects-page-container {
   width: 80%;
   margin: 0 auto;
 }
@@ -679,6 +679,11 @@ color: #04E824;
     font-size:.65rem;
     letter-spacing: 1px;
   }
+  .projects-page-container {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0 auto;
+  }
 }
 
 @media (max-width: 470px) {
@@ -727,11 +732,6 @@ color: #04E824;
   @media (max-width:380px) {
     .button-view-resume a{
       font-size: 8px;
-    }
-
-    .stranger-danger-container {
-    width: 95%;
-    margin: 0 auto;
     }
 
     .index-main-title {
