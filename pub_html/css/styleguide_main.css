@@ -186,4 +186,8 @@
   #navigation-header-2{
       height:25px;
     }
+
+  .code-block {
+    min-width: 0;
+  }
 }

@@ -544,29 +544,40 @@ color: #04E824;
   margin: 0 auto;
 }
 
-.section-references {
-  color: #313333;
-  padding-left: 6rem;
+.reference-title {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 4.75rem;
+  padding-bottom: .5rem;
+  letter-spacing: .55rem;
+  text-transform: uppercase;
+  border: none;
 }
 
-.reference-title {
-  padding-top: 10rem;
-  font-size: 2.5rem;
-  letter-spacing: .25rem;
-  color: #313333;
+#section-references {
+color: #04E824;
 }
 
 .code-title {
   font-size: 1.25rem;
   letter-spacing: .15rem;
-  color: #04E824;
+  color: #313333;
+  text-align: center;
 }
 
 .references-content {
+  font-size: .75rem;
   color: #313333;
+  text-align: center;
+  letter-spacing: .15rem;
+  text-decoration:underline;
+  padding-bottom: .5rem;
 }
 
-
+.references-content :hover, .references-content :focus {
+  transition: ease-in .3s;
+  color: #04E824
+}
 
 @media (max-width:1094px) {
 
@@ -693,6 +704,9 @@ color: #04E824;
   .back-to-projects-hyperlink  {
     padding-top: 8rem;
   }
+  .reference-title {
+    padding-top: 10rem;
+  }
 }
 
 @media (max-height: 600px) {
@@ -760,7 +774,6 @@ color: #04E824;
     .single-project-title {
       font-size: 1.5rem;
     }
-
   }
 
   @media (max-width:380px) {
@@ -779,6 +792,14 @@ color: #04E824;
 
     #section-index {
       padding-top: 8rem;
+    }
+
+    .reference-title {
+      font-size: 1.15rem;
+    }
+
+    .code-title {
+      font-size: 1rem;
     }
   }
 

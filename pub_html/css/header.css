@@ -195,13 +195,14 @@ a {
 @media (max-width:380px) {
   .navigation-header img {
     height: 100%;
-    padding-left: 4rem;
+    padding-left: 0;
     margin: auto 0;
     vertical-align: middle;
   }
 
   .navigation-header {
     height: 35px;
+    text-align: center;
   }
 
   .main-header-projects {
