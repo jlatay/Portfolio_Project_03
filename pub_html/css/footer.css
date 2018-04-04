@@ -1,3 +1,8 @@
+footer {
+  width: 100%;
+  padding: 0rem;
+  margin: 0rem;
+}
 
 .section-footer:before {
   content: ".";
@@ -12,6 +17,7 @@
   padding-bottom: 1.5rem;
   padding-top: 1rem;
   background-color: #313333;
+  width: 100%;
 }
 
 .sticky-footer{
@@ -23,6 +29,7 @@
 .footer-container{
   margin: 0 auto;
   text-align: center;
+  width: 100%
 }
 
 .nav-footer a {

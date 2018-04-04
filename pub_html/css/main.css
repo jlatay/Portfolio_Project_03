@@ -133,8 +133,6 @@ p {
   margin: 0 auto;
 }
 
-
-
 #section-projects {
 color: #04E824;
 }
@@ -185,7 +183,7 @@ color: #04E824;
 
 .project-header-title {
   font-size: 15px;
-  font-weight: 500i;
+  font-weight: bold;
   letter-spacing: 1.25px;
   color: #515555;
   text-align: left;
@@ -193,7 +191,7 @@ color: #04E824;
 
 .project-header-title-2 {
   font-size: 15px;
-  font-weight: 500i;
+  font-weight: bold;;
   letter-spacing: 1.25px;
   color: #515555;
   text-align: left;
@@ -211,7 +209,7 @@ color: #04E824;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 1px;
-  color: #04E824;
+  color: #717777;
   text-align: left;
   font-style: oblique;
 }
@@ -257,7 +255,6 @@ color: #04E824;
   text-align: center;
   border-radius: 10px;
   transition: .3s ease-out;
-
 }
 /*End of Projects Page*/
 
@@ -326,6 +323,10 @@ color: #ffffff;
   color: #04E824;
 }
 
+.coloured-headers-2 {
+  color: #515555;
+}
+
 .button-view-resume {
   margin-top: 1.75rem;
   margin-bottom: 2rem;
@@ -390,9 +391,9 @@ color: #ffffff;
 
 .single-project-title {
   font-size: 30px;
-  font-weight: 500;
+  font-weight: bold;
   color: #313333;
-  letter-spacing: 1px;
+  letter-spacing: .15rem;
   margin-left: 3rem;
   text-transform: uppercase;
 }
@@ -460,8 +461,8 @@ color: #ffffff;
   color: #414444;
   font-weight: 300;
   font-size: 14px;
-  letter-spacing: 1px;
-  line-height: 1.25rem;
+  letter-spacing: .75px;
+  line-height: 1.5rem;
   padding-bottom: 1rem;
 }
 
@@ -474,7 +475,7 @@ color: #ffffff;
 
 .project-subheaders {
   font-size: 20px;
-  font-weight: 500i;
+  font-weight: bold;
   color: #313333;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -498,7 +499,6 @@ color: #ffffff;
 .style-guide-page {
   background: #ffffff;
   position: relative;
-  /* height: 100vh; */
 }
 
 #section-style-guide {
@@ -535,6 +535,38 @@ color: #04E824;
   max-height: 40%;
   margin-right: 1rem;
 }
+
+
+/*References Starts Here*/
+
+.references-page-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-references {
+  color: #313333;
+  padding-left: 6rem;
+}
+
+.reference-title {
+  padding-top: 10rem;
+  font-size: 2.5rem;
+  letter-spacing: .25rem;
+  color: #313333;
+}
+
+.code-title {
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+  color: #04E824;
+}
+
+.references-content {
+  color: #313333;
+}
+
+
 
 @media (max-width:1094px) {
 
@@ -586,24 +618,6 @@ color: #04E824;
   }
 }
 
-/*References Starts Here*/
-.references-page-container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.reference-title {
-  padding-top: 10rem;
-  font-size: 2.5rem;
-  letter-spacing: .25rem;
-  color: #313333;
-}
-
-.code-title {
-  font-size: 1.25rem;
-  letter-spacing: .15rem;
-  color: #04E824;
-}
 
 @media (max-width:705px) {
   .project-content-images-block img {
@@ -693,15 +707,18 @@ color: #04E824;
     letter-spacing: 1px;
   }
   .projects-page-container {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 auto;
   }
 }
 
 @media (max-width: 470px) {
   .back-to-projects-hyperlink  {
     padding-top: 8rem;
+    padding-left: 1.75rem;
+  }
+  .back-to-projects-hyperlink-2  {
+    padding-left: 1.75rem;
   }
 }
 
@@ -740,9 +757,18 @@ color: #04E824;
       padding-top: 10rem;
     }
 
+    .single-project-title {
+      font-size: 1.5rem;
+    }
+
   }
 
   @media (max-width:380px) {
+    .about-me-headers {
+      font-size: .55rem;
+      letter-spacing: .8px;
+    }
+
     .button-view-resume a{
       font-size: 8px;
     }
