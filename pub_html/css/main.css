@@ -126,7 +126,6 @@ p {
 .projects-page {
   background: #ffffff;
   position: relative;
-  /* height: 100vh; */
 }
 
 .projects-section-container {
@@ -134,9 +133,7 @@ p {
   margin: 0 auto;
 }
 
-.project-container {
-  /* padding: .5rem; */
-}
+
 
 #section-projects {
 color: #04E824;
@@ -240,6 +237,7 @@ color: #04E824;
 
 .nav-button a{
   font-size: 15px;
+  text-transform: uppercase;
   letter-spacing: 1px;
   color: #04E824;
   background-color: #ffffff;
@@ -251,7 +249,6 @@ color: #04E824;
   transition: 0.3s ease-in;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 2px 3px #515555;
 }
 
 .nav-button a:hover, .nav-button a:focus {
@@ -260,7 +257,7 @@ color: #04E824;
   text-align: center;
   border-radius: 10px;
   transition: .3s ease-out;
-  box-shadow: none;
+
 }
 /*End of Projects Page*/
 
@@ -369,7 +366,6 @@ color: #ffffff;
   transition: 0.5s ease-out;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 2px 3px #515555;
 }
 
 .button-download-2:hover, .button-download-2:focus {
@@ -378,7 +374,6 @@ color: #ffffff;
   text-align: center;
   border-radius: 10px;
   transition: 0.3s ease-in;
-  box-shadow: none;
 }
 /*End of About Me Page*/
 
@@ -591,6 +586,24 @@ color: #04E824;
   }
 }
 
+/*References Starts Here*/
+.references-page-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.reference-title {
+  padding-top: 10rem;
+  font-size: 2.5rem;
+  letter-spacing: .25rem;
+  color: #313333;
+}
+
+.code-title {
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+  color: #04E824;
+}
 
 @media (max-width:705px) {
   .project-content-images-block img {
